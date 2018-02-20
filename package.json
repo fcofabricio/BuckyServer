@@ -1,6 +1,6 @@
 {
   "name": "bucky-server",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Server to collect stats from the client",
   "main": "./start.js",
   "bin": "./start.js",
@@ -13,20 +13,21 @@
   },
   "contributors": [
     "Zack Bloom <zbloom@hubspot.com>",
-    "Ze'ev Klapow <zklapow@hubspot.com>"
+    "Ze'ev Klapow <zklapow@hubspot.com>",
+    "Fabrício Lima <fcofabricio@great.ufc.br.com>"
   ],
   "engines": {
-    "node": ">=0.8.15"
+    "node": ">=8.0.0"
   },
   "dependencies": {
-    "yaml": "~0.2.3",
-    "express": "~3.2.5",
-    "coffee-script": "~1.6.2",
-    "lynx": "~0.0.11",
-    "underscore": "~1.4.4",
-    "nopents": "~0.1.0",
-    "config": "~0.4.27",
-    "q": "~0.9.6",
-    "request": "2.x"
+    "coffeescript": "~2.2.1",
+    "config": "~1.29.4",
+    "express": "~4.16.2",
+    "js-yaml": "~3.10.0",
+    "lynx": "~0.2.0",
+    "nopents": "~0.1.8",
+    "q": "^0.9.7",
+    "request": "~2.83.0",
+    "underscore": "~1.8.3"
   }
 }

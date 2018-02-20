@@ -1,4 +1,5 @@
 #!/usr/bin/env node
 
-require("coffee-script");
+require("coffeescript");
+require("coffeescript/register");
 require("./server.coffee");
