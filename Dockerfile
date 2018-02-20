@@ -8,7 +8,7 @@ RUN wget https://github.com/fcofabricio/BuckyServer/archive/$BUCKY_VERSION.tar.g
     mkdir -p /opt/BuckyServer && \
     tar --strip-components=1 -xzf /opt/BuckyServer.tar.gz -C /opt/BuckyServer
 
-RUN cd /opt/BuckyServer && npm install
+RUN cd /opt/BuckyServer && npm install -g
 
 ADD default.yaml.template /opt/BuckyServer/config/default.yaml.template
 
