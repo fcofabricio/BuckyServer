@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sed -e "s/{{PORT}}/$PORT/" -e "s/{{STATSD_HOST}}/$STATSD_HOST/"  -e "s/{{STATSD_PORT}}/$STATSD_PORT/" config/default.yaml.template > config/default.yaml
+
+./start.js
